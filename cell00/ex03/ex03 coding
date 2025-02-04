@@ -1,0 +1,9 @@
+Lenovo@LAPTOP-O97UQP8L MINGW64 ~/desktop/funwithcoding/cell00/ex03
+$ nano count_files.sh
+
+Lenovo@LAPTOP-O97UQP8L MINGW64 ~/desktop/funwithcoding/cell00/ex03
+$ chmod +x count_files.sh
+
+Lenovo@LAPTOP-O97UQP8L MINGW64 ~/desktop/funwithcoding/cell00/ex03
+$ ./count_files.sh | cat -e
+42$
