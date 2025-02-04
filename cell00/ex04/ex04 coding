@@ -1,0 +1,25 @@
+Lenovo@LAPTOP-O97UQP8L MINGW64 ~/desktop/funwithcoding/cell00/ex04
+$ nano argv.sh
+
+Lenovo@LAPTOP-O97UQP8L MINGW64 ~/desktop/funwithcoding/cell00/ex04
+$ ./argv.sh 3
+3
+
+Lenovo@LAPTOP-O97UQP8L MINGW64 ~/desktop/funwithcoding/cell00/ex04
+$ ./argv.sh 4 40 42
+4
+40
+42
+
+Lenovo@LAPTOP-O97UQP8L MINGW64 ~/desktop/funwithcoding/cell00/ex04
+$ ./argv.sh Hello ! 42
+Hello
+!
+42
+
+Lenovo@LAPTOP-O97UQP8L MINGW64 ~/desktop/funwithcoding/cell00/ex04
+$ ./argv.sh Hello World ! 42
+Hello
+World
+!
+42
