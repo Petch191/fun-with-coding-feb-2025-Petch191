@@ -1,0 +1,21 @@
+Lenovo@LAPTOP-O97UQP8L MINGW64 ~/desktop/funwithcoding/cell00/ex05
+$ ./build.sh 00
+
+Lenovo@LAPTOP-O97UQP8L MINGW64 ~/desktop/funwithcoding/cell00/ex05
+$ ls -l
+total 1
+-rwxr-xr-x 1 Lenovo 197121 124 Feb  4 13:45 build.sh*
+drwxr-xr-x 1 Lenovo 197121   0 Feb  4 13:46 ex00/
+
+Lenovo@LAPTOP-O97UQP8L MINGW64 ~/desktop/funwithcoding/cell00/ex05
+$ ./build.sh 01 02 03 04
+
+Lenovo@LAPTOP-O97UQP8L MINGW64 ~/desktop/funwithcoding/cell00/ex05
+$ ls -l
+total 1
+-rwxr-xr-x 1 Lenovo 197121 124 Feb  4 13:45 build.sh*
+drwxr-xr-x 1 Lenovo 197121   0 Feb  4 13:46 ex00/
+drwxr-xr-x 1 Lenovo 197121   0 Feb  4 13:49 ex01/
+drwxr-xr-x 1 Lenovo 197121   0 Feb  4 13:49 ex02/
+drwxr-xr-x 1 Lenovo 197121   0 Feb  4 13:49 ex03/
+drwxr-xr-x 1 Lenovo 197121   0 Feb  4 13:49 ex04/
