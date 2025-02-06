@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="myport.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certificate">Certificate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>My Profile</h1>
+        <div>
+            <img src="damm.png" alt="profile" class="myprofile">
+        </div>
+    </section>
+    <section id="about">
+        <h3>About me</h3>
+        <p>เรียนอยู่ที่คณะวิทยาศาสตร์ สาขาสถิติประยุกต์และการวิเคราะห์ข้อมูล</p>
+    </section>
+    <section id="certificate">
+        <h3>Certificate</h3>
+        <div>
+            <div>
+                <img src="Screenshot 2025-02-06 224508.png" alt="cer1" class="certificate-img">
+                <img src="Screenshot 2025-02-06 224552.png" alt="cer2" class="certificate-img">
+            </div>
+            <div>
+                <img src="please 2.png" alt="cer3" class="certificate-img">
+                <img src="please 3.png" alt="cer4" class="certificate-img">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h3>Contact</h3>
+        <div class="icons">
+            <a href="https://www.instagram.com/petchy_tj/" target="_blank">
+                <img src="https://img.freepik.com/free-vector/instagram-logo_1199-122.jpg" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/tharathep.jucharoen.3" target="_blank">
+                <img src="https://store-images.s-microsoft.com/image/apps.30645.9007199266245907.cb06f1f9-9154-408e-b4ef-d19f2325893b.ac3b465e-4384-42a8-9142-901c0405e1bc" alt="Facebook">
+            </a>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function(){
+            $("nav ul li a").click(function(e){
+                e.preventDefault();
+                var target = $(this).attr("href");
+                $('html, body').animate({
+                    scrollTop: $(target).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+</html>
