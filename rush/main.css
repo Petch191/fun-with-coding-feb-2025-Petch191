@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("https://www.addictivetips.com/app/uploads/2020/04/6GUlZKR.webp"); 
+    justify-content: center;
+    align-items: center;        
+}
+header {
+    color: whitesmoke;
+    font-style: italic;
+    text-align: center;
+    align-items: normal;
+    
+}
+h1 {
+    color: whitesmoke;
+    font-style: italic;
+    text-align: center;
+}
+.profile {
+    display: flex;
+    gap: 20px;  
+}
+.profile img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; 
+}
+.profile img:hover {
+    transform: scale(1.1);
+}
+
